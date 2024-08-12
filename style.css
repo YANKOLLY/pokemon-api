@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Logo{
+    height: 25vh;
+}
+
+.container{
+    background-color: rgb(223, 74, 74);
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.pokemon-picture img{
+    height: 14vh;
+}
+
+.name{
+    font-size: 10px;
+}
+
+.number, weight, height{
+    font-size: 15px;
+}
